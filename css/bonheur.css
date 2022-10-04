@@ -15,7 +15,7 @@
 header {
     position: relative;
     width: 100%;
-    height: 233px;
+    height: 210px;
 }
 /* ---------login---------- */
 .login-line {
@@ -41,7 +41,7 @@ header {
 /* 로고와 검색창 묶음 */
 .logo-and-search {
     margin-top: 66px;
-    margin-bottom: 62px;
+    margin-bottom: 69px;
 }
 
 /* ---------logo---------- */
@@ -65,4 +65,11 @@ h2 p {
     background: transparent;
     border-radius: 50px;
     border: 7px solid #0000cb;
+}
+
+
+
+/* ---------메인---------- */
+.main-img img {
+    width: 100%;
 }
