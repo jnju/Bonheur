@@ -23,6 +23,11 @@ h1 {
     font-size: 0;
 }
 
+h2 {
+    font-size: 43px;
+    color: #0000cb;
+}
+
 header,
 nav,
 main,
