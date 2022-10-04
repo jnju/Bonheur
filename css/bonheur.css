@@ -8,6 +8,9 @@
     background-color: pink;
 }
 
+.wrapper {
+    width: 100%;
+}
 /* --------header--------- */
 header {
     position: relative;
@@ -15,23 +18,37 @@ header {
     height: 233px;
 }
 /* ---------login---------- */
-.login-box {
-    position: relative;
-    height: 23px;
+.login-line {
     width: 100%;
     background-color: #f2f2f4;
     border-bottom: 1px solid #b8b8b8;
 }
 
-.login {
+.login-box {
+    height: 23px;
+}
+
+.login-list li {
+    display: inline-block;
     float: right;
-    padding: 5px;
+    margin: 7px;
     font-size: 12px;
 }
+
+.login-list li:hover {
+    font-weight: bold;
+}
+/* 로고와 검색창 묶음 */
+.logo-and-search {
+    margin-top: 66px;
+    margin-bottom: 62px;
+}
+
 /* ---------logo---------- */
 h2 {
-    position: relative;
-    top: 64px; left: 534px;
+    float: left;
+    margin-left: 94px;
+    margin-right: 102px;
 }
 
 h2 p {
@@ -40,7 +57,7 @@ h2 p {
 
 /* --------search-------- */
 .find-box {
-    /* float: right; */
+    float: left;
 }
 
 .find {

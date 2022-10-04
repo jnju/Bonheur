@@ -13,6 +13,11 @@ body {
     color: #333;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+}
+
 ul,
 ol,
 li {
