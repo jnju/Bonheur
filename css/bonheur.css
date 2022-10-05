@@ -148,7 +148,7 @@ h2 a p {
 
 @keyframes upimg {
     0% { top:0; }
-    100% {top: -10px;}
+    100% { top: -10px; }
 }
 
 .typebox img:hover {
