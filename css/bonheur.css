@@ -7,7 +7,7 @@
     width: 1024px;
     margin: 0 auto;
     padding: 0 10px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .wrapper {
@@ -80,17 +80,36 @@ h2 a p {
 
 /* ---------메인---------- */
 .main-img img {
+    display: block;
     width: 100%;
+    margin-bottom: 0;
 }
 
+
+/* --------메인 메뉴---------- */
 .main-menu {
     opacity: 70%;
     background-color: black;
+    margin-top: 0px;
+}
+
+.gnb {
     display: flex;
 }
 
 .gnb li {
-    flex: 100px;
+    flex: 200px;
     width: 100%;
-    padding: 26px 0;
+    padding: 30px 0;
+    margin-left: 65px;
+}
+
+.gnb li a{
+    font-weight: 100;
+    opacity: 1;
+    color: white;
+}
+
+.gnb li a:hover {
+    font-weight: bold;
 }
