@@ -157,4 +157,12 @@ h2 a p {
     top: -10px;
 }
 
+/* ----------트립타입 표 영역---------- */
+.graph {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #333;
+    background: #FFF url("./img/images/루브르.jpeg") 0 0 no-repeat;
+}
+
 

@@ -42,6 +42,13 @@ h4 {
     text-align: center;
 }
 
+h5 {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
 header,
 nav,
 main,
