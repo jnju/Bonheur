@@ -160,9 +160,49 @@ h2 a p {
 /* ----------트립타입 표 영역---------- */
 .graph {
     width: 100%;
+    height: auto;
     margin-top: 10px;
+    margin-bottom: 20px;
     border: 1px solid #333;
-    background: #FFF url("./img/images/루브르.jpeg") 0 0 no-repeat;
+    background-image: url('./img/추천코스표틀_03.png');
+    background-size: 100% 100%;
 }
 
+
+/* -----------like-------------- */
+.Like h4 {
+    margin-top: 99px;
+}
+
+.Like h4::after {
+    font-family: 'PT Sans', sans-serif;
+    content: '';
+    display: block;
+    width: 40px; 
+    border-bottom: 2px solid #0000cb;
+    margin: 8px auto;
+}
+
+.likebox {
+    padding: 4px;
+    margin-top: 65px;
+    background-color: #eee;
+}
+
+.likeboxes{
+    margin: 20px 10px;
+    display: flex;
+}
+
+.likelist {
+    margin: 10px;
+}
+
+.likelist img {
+    width: 224px;
+}
+
+.likelist p a strong {
+    font-family: 'PT Sans', sans-serif;
+}
 
