@@ -195,11 +195,15 @@ h2 a p {
 }
 
 .likelist {
-    margin: 10px;
+    margin: 5px;
 }
 
 .likelist img {
-    width: 224px;
+    width: 234px;
+}
+
+.likelist p {
+    line-height: 28px;
 }
 
 .likelist p a strong {
