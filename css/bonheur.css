@@ -316,7 +316,7 @@ h2 a p {
     margin-left: -600px;
 }
 
-.logo h2 {
+.under-logo h2 {
     font-size: 35px;
     font-family: 'Roboto';
     font-weight: bolder;
@@ -324,7 +324,7 @@ h2 a p {
     line-height: 25px;
 }
 
-.logo h2 p {
+.under-logo h2 p {
     color: #0000cb;
     font-family: 'Jeju Gothic', sans-serif;
     font-weight: bolder;
