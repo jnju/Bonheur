@@ -8,6 +8,7 @@
     width: 1024px;
     margin: 0 auto;
     padding: 0 10px;
+    /* overflow; */
     /* background-color: pink; */
 }
 
@@ -153,6 +154,8 @@ h2 a p {
 
 .typebox:hover {
     position: relative;
+    float: left;
+    display: block;
     animation: upimg 0.5s alternate;
     top: -10px;
     text-decoration: underline;
@@ -175,9 +178,10 @@ h2 a p {
 .family-course img,
 .love-course img,
 .alone-course img {
-    width: 750px;   
+    width: 745px;   
 }
 
+.friend-course,
 .family-course,
 .love-course,
 .alone-course {
