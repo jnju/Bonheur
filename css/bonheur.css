@@ -181,11 +181,10 @@ h2 a p {
     width: 745px;   
 }
 
-.friend-course,
 .family-course,
 .love-course,
 .alone-course {
-    /* display: none; */
+    display: none;
 }
 
 .friend-course {
