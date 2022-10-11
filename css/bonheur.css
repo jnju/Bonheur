@@ -138,17 +138,11 @@ h2 a p {
     width: 237px;
 }
 
-.typebox1,
-.typebox2,
-.typebox3,
-.typebox4 {
+.typebox {
     margin: 8px;
 }
 
-.typebox1 p strong,
-.typebox2 p strong, 
-.typebox3 p strong, 
-.typebox4 p strong {
+.typebox p strong {
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -157,57 +151,58 @@ h2 a p {
     100% { top: -10px; }
 }
 
-.typebox1 img:hover,
-.typebox2 img:hover,
-.typebox3 img:hover,
-.typebox4 img:hover {
+.typebox:hover {
     position: relative;
     animation: upimg 0.5s alternate;
     top: -10px;
+    text-decoration: underline;
+    z-index: 2;
 }
 
 /* ----------트립타입 표 영역---------- */
-.graph {
-    position: relative;
-    width: 1024px; /* important! */
-    height: 400px;
-    overflow: hidden; /* important! */
-
-    /* width: 100%; */
-    height: 380px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-size: 100% 100%;
-    background-image: url('../img/추천코스표틀_03.png');
-}
-
-.graph ul {
-    display: flex;
+.friend-course,
+.family-course,
+.love-course,
+.alone-course {
     position: absolute;
-    top: 0; left: 0;
-    width: 3,072px; /* important! */
-}
-
-.graph h5 {
-    padding-bottom: 0;
-}
-
-.course{
+    float: left;
     border: 1px solid #333;
-    padding: 35px 10px 50px 10px;
+    margin-top: 25px;
+    padding: 0 123px;
 }
 
-.graph li {
-    display: none;
+.friend-course img,
+.family-course img,
+.love-course img,
+.alone-course img {
+    width: 750px;   
 }
 
-.graph li {
-    display: block;
+.family-course,
+.love-course,
+.alone-course {
+    /* display: none; */
+}
+
+.friend-course {
+    z-index: 1;
+}
+
+.family-course {
+    left: 17px
+}
+
+.love-course {
+    left: 17px;
+}
+
+.alone-course {
+    left: 18px;
 }
 
 /* -----------like-------------- */
 .Like h4 {
-    margin-top: 99px;
+    margin-top: 700px;
 }
 
 .Like h4::after {
