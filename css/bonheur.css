@@ -218,6 +218,7 @@ h2 a p {
 }
 
 .likebox {
+    display: inline-block;
     padding: 4px;
     margin-top: 65px;
     background-color: #eee;
@@ -248,11 +249,6 @@ h2 a p {
     font-size: 13px;
 }
 
-.arrow img {
-    position: relative;
-    top: -250px;
-}
-
 .left,
 .right {
     width: 41px;
@@ -260,11 +256,11 @@ h2 a p {
 }
 
 .left {
-    left: 1450px;
+    transform: translate(1000px, -240px);
 }
 
 .right {
-    left: 370px;
+    transform: translate(-80px, -240px);
 }
 
 
