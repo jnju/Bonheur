@@ -415,3 +415,18 @@ address {
     text-decoration: underline;
     font-weight: 600;
 }
+
+.fixed-menu {
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    border: 1px solid #0000cb;
+}
+
+.fixed-menu li > a {
+    color: #0000cb;
+    width: 94px; height: 38px;
+    line-height: 38px;
+    text-align: center;
+    margin: 10px;
+}
