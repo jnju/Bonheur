@@ -87,9 +87,21 @@ h2 a p {
     margin-bottom: 0;
 }
 
+.main-img p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    transform: translate(0, -770%);
+}
+
+.main-img p span {
+    font-size: 20px;
+}
+
 
 /* --------메인 메뉴---------- */
 .main-menu {
+    transform: translate(0, -75px);
     opacity: 70%;
     background-color: black;
     margin-top: 0px;
@@ -231,13 +243,21 @@ h2 a p {
 
 .likelist {
     margin: 5px;
+    height: 340px;
 }
 
 .likelist img {
     width: 234px;
 }
 
+.likelist .heart {
+    width: 50px;
+    opacity: 80%;
+    transform: translate(8px, -60px);
+}
+
 .likelist p {
+    transform: translate(0, -55px);
     line-height: 28px;
 }
 
