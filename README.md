@@ -24,3 +24,8 @@ Bonheur는 프랑스어로 행복을 뜻합니다.
 
 고민 끝에 프랑스 국기의 색에 들어가는 색 중 파란색을 선택하여 시원하고 깔끔한 분위기를 이끌어냈습니다.
 
+![color1](https://user-images.githubusercontent.com/114633681/214852109-53bd0101-ff7f-420e-99a6-ebd46d9287d6.png) ![color2](https://user-images.githubusercontent.com/114633681/214852119-bb27c463-88c2-45fd-a779-e397d5ee9096.png) ![color3](https://user-images.githubusercontent.com/114633681/214852133-2ffdc207-0013-482d-9e4e-46687343df33.png)
+<br/><br/>
+
+## :blue_heart: Point 3
+직접 찾아본 정보들을 토대로 제작 코스 표를 포토샵으로 작성했습니다. 
